@@ -1,0 +1,32 @@
+#settings .nav__btn:last-child i {
+  color: var(--gray);
+}
+
+#settings .screen-header__icons > span:last-child {
+  position: relative;
+}
+
+.settings-setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+}
+
+.settings-setting__column:first-child {
+  display: flex;
+}
+
+.settings-setting__icon {
+  width: 50px;
+}
+
+.settings-setting__column i {
+  font-size: 22px;
+}
+
+.settings-setting__column:nth-child(2) {
+  opacity: 0.5;
+}

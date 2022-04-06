@@ -1,0 +1,3 @@
+#chats .nav__btn:nth-child(2) i {
+  color: var(--gray);
+}
